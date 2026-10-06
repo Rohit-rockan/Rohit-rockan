@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1068" viewBox="0 0 640 1068" role="img" aria-labelledby="title">
+<title id="title">Rohit Awasthi — AI &amp; full-stack builder</title>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F8FA"/></linearGradient>
+  <linearGradient id="ascii-grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F2328"/><stop offset="1" stop-color="#0969DA"/></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D0D7DE"/><stop offset="0.5" stop-color="#0969DA"/><stop offset="1" stop-color="#D0D7DE"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0969DA" stop-opacity="0"/><stop offset="0.5" stop-color="#0969DA" stop-opacity="0.35"/><stop offset="1" stop-color="#0969DA" stop-opacity="0"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#0969DA" stop-opacity="0.14"/><stop offset="1" stop-color="#0969DA" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 H 0 V 40" fill="none" stroke="#59636E" stroke-width="0.6" opacity="0.12"/></pattern>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#0969DA" opacity="0.04"/></pattern>
+  <clipPath id="pclip"><rect x="24" y="72" width="592" height="400" rx="12"/></clipPath>
+</defs>
+  <style>
+    text, tspan { white-space: pre; font-family: 'Courier New', Consolas, monospace; }
+    .ascii { font-size: 6.6px; letter-spacing: -0.2px; fill: url(#ascii-grad); }
+    .label { font-size: 11px; letter-spacing: 2px; fill: #59636E; }
+    .term { font-size: 12px; fill: #59636E; }
+    .live { font-size: 10px; letter-spacing: 1px; fill: #1A7F37; font-weight: 700; }
+    .prompt { font-size: 15px; fill: #0969DA; font-weight: 700; }
+    .head { font-size: 22px; fill: #1F2328; font-weight: 700; }
+    .key { font-size: 14px; fill: #0969DA; font-weight: 700; }
+    .val { font-size: 14px; fill: #1F2328; }
+    .sec { font-size: 12px; letter-spacing: 2px; fill: #8250DF; font-weight: 700; }
+    .repo { font-size: 14px; fill: #8250DF; font-weight: 700; }
+    .desc { font-size: 13px; fill: #59636E; }
+    .orbit { transform-box: view-box; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spin-back { to { transform: rotate(-360deg); } }
+    @keyframes sweep { from { transform: translateY(-60px); } to { transform: translateY(700px); } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    @keyframes reveal { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .spin { animation: spin 40s linear infinite; }
+      .spin-back { animation: spin-back 30s linear infinite; }
+      .sweep { animation: sweep 7s linear infinite; }
+      .cursor { animation: blink 1.1s step-end infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      .line { animation: reveal 0.5s ease-out both; }
+    }
+    @media (prefers-reduced-motion: reduce) { .sweep { display: none; } }
+  </style>
+<rect width="640" height="1068" rx="18" fill="url(#bg)"/>
+<rect width="640" height="1068" rx="18" fill="url(#scanlines)"/>
+<rect x="3" y="3" width="634" height="34" rx="16" fill="#F6F8FA" fill-opacity="0.9"/>
+<circle cx="24" cy="20" r="5" fill="#FF5F57"/><circle cx="42" cy="20" r="5" fill="#FEBC2E"/><circle cx="60" cy="20" r="5" fill="#28C840"/>
+<text x="320.0" y="25" text-anchor="middle" class="term">rohit@build ~ % ./profile</text>
+<circle class="pulse" cx="548" cy="20" r="4" fill="#1A7F37"/><text x="558" y="24" class="live">BUILDING</text>
+<rect x="14" y="62" width="612" height="420" rx="14" fill="#F6F8FA" fill-opacity="0.35" stroke="url(#border)" stroke-opacity="0.5"/>
+<rect x="14" y="496" width="612" height="558" rx="14" fill="#F6F8FA" fill-opacity="0.4" stroke="url(#border)" stroke-opacity="0.5"/>
+
+<g clip-path="url(#pclip)" aria-hidden="true">
+  <rect x="24" y="72" width="592" height="400" fill="url(#grid)"/>
+  <ellipse cx="320.0" cy="272.0" rx="284.15999999999997" ry="176.0" fill="url(#halo)"/>
+  <ellipse class="orbit spin" style="transform-origin:320.0px 272.0px" cx="320.0" cy="272.0" rx="272.32" ry="120.0" fill="none" stroke="#0969DA" stroke-dasharray="3 14" opacity="0.35"/>
+  <ellipse class="orbit spin-back" style="transform-origin:320.0px 272.0px" cx="320.0" cy="272.0" rx="213.12" ry="88.0" fill="none" stroke="#8250DF" stroke-dasharray="26 22" opacity="0.25"/>
+  <text class="ascii"><tspan x="113.8" y="81.60">                                   ..  ...:.        .....  .:</tspan>
+<tspan x="113.8" y="88.40">                                  : ....=:.:::::-::......:-=+-----:::::</tspan>
+<tspan x="113.8" y="95.20">                                 - ..::+=-  .........................  ----.</tspan>
+<tspan x="113.8" y="102.00">                                 +.::::=.........................:.......: :-.</tspan>
+<tspan x="113.8" y="108.80">                               --*.----=..........................::::::-:::.=--:.</tspan>
+<tspan x="113.8" y="115.60">                              #...:+++=-=.........................::::-:#=-:::.. .=.</tspan>
+<tspan x="113.8" y="122.40">                          :--+-:::::=+*+==..::::...::::::::::::::::::::--=---::::: *:</tspan>
+<tspan x="113.8" y="129.20">                         +-.-:::::::::=+*=+:::.:::::::::::::::::::::::::---::::::::.-+:</tspan>
+<tspan x="113.8" y="136.00">                       .#::::---::::::::+=-::::-:::::::::::::::::::::::::::::::::::::.=*.</tspan>
+<tspan x="113.8" y="142.80">                      .%.:::-:::::::::::--::::::-::::::::::::::::::::::::::::::::::::::.*-</tspan>
+<tspan x="113.8" y="149.60">                     =*::-------:::::===---------::-::::::::::::::::::::--:::::::::-----.+#</tspan>
+<tspan x="113.8" y="156.40">                    #+.-------------=++-----=-==-------------------------=-:::::---------:=#</tspan>
+<tspan x="113.8" y="163.20">                   @=:=------------+++----====+---------------------==---==---------------:#:</tspan>
+<tspan x="113.8" y="170.00">                  +*:*++*+++++===-==*=-@--===*=--@--=-----=+**++*---+=--=@=------:=++++++*=*@:</tspan>
+<tspan x="113.8" y="176.80">                 #=:--::::---------+=--:--=+++--*:----------:::::---+*=---==-------:::::::--.@:</tspan>
+<tspan x="113.8" y="183.60">                **:==-----=--------===---=*++=-------=-----------=--+*=----+=--------------==.##=</tspan>
+<tspan x="113.8" y="190.40">               **:===----=----------=---=**=+-------=*+----------=--*#=----===-------==----===-.=*:</tspan>
+<tspan x="113.8" y="197.20">             .@=-=========--------=-=-==+#*====-===-=#*===-------===*++----=+=---=---=======-@#*=:</tspan>
+<tspan x="113.8" y="204.00">            **.=@=========-------====-=**#*+========*##+========-==-+-#=----*=---=----==+=====@</tspan>
+<tspan x="113.8" y="210.80">          :**+*:@:===========---=+======###=========*###===++======*:%==-=--*+--=+=-===+=====.@</tspan>
+<tspan x="113.8" y="217.60">          ..   =%-=========+=====+======##@++===+===####+===*=====---.+-----**===+===========-%*</tspan>
+<tspan x="113.8" y="224.40">               *+=========+#=====*+++===#*-@-===+==+#####==+#====-+ = .%=-==**===*====+==++===.@.</tspan>
+<tspan x="113.8" y="231.20">               .@-==+==++=*#+====****==++===*===++=+#####+=*#====%.=.  :@===*#===*====+==+##+==.@:</tspan>
+<tspan x="113.8" y="238.00">                @.=++==*+=*#*====#*#*===*-  %+==++=*#####*#*#====-:-    -@==*#==+#===++==+###*++-*%=</tspan>
+<tspan x="113.8" y="244.80">                =@-+*==*+=*##+===###@:==@+-. @:==*++#########+==*:-  .-++@+=*#==**===#+===+*#+@%#%+-.</tspan>
+<tspan x="113.8" y="251.60">                 @==#+=**=+##*===##@:@-=@+@@##@=+#*+#########+==%@#*@@@**+@@##=+#*==*##+=**+*:@+</tspan>
+<tspan x="113.8" y="258.40">                 -@-#*=*#+=###*==#*++=@:@@%#*=--++**#####%*@#+=*--:+*+*+--:*@#=*#+=-@###+*###+:**</tspan>
+<tspan x="113.8" y="265.20">               -#*-=*#*+%*=+###+=*@-@@@@@@***==#@-@#%#%%%%%@#-%@@@@@@@%@@@@*@@+##+=@%@###**+@%=@.</tspan>
+<tspan x="113.8" y="272.00">             -%*-*%*#%%*##+@+#%#*+@=@*+=-:@-@#@*#=%##%##%*@@+@*=#*#@=@*****@*@##+=:*:@%%#%#+%@=@*</tspan>
+<tspan x="113.8" y="278.80">             .:-:%###%%#*#@+@+#%#*@#+:-:..-*=---.  =@+*@#%-@=- .:--**==---:+@*#**+.+=@*@##:@#=#+-</tspan>
+<tspan x="113.8" y="285.60">                 @*##%%@@***=@@*%%@-:=-====-::::.    @-@*@:    .::.:-++=::-:@@@.@:: @@:@%-@:</tspan>
+<tspan x="113.8" y="292.40">                 +#*%@=-:@*==-@++#@@                 @:%=.                 #*@-%@-:#@=@+@@*</tspan>
+<tspan x="113.8" y="299.20">                 .@=@:  ::@+-:%@%++@:                #:%.                  :+:*:-:%@#.@ -+</tspan>
+<tspan x="113.8" y="306.00">                  ==.     :*@+#*+=@+=                #.#:                    **-@@*%#@:</tspan>
+<tspan x="113.8" y="312.80">                           :@%@=@==                  ++%:                   .+*@@#*%--</tspan>
+<tspan x="113.8" y="319.60">                           :@##@@-@               .:..%*::::                @+@*#%:@</tspan>
+<tspan x="113.8" y="326.40">                           @*%#*%%@=           :-=+-=+*+*+=+==:            :@%%%+@+@:</tspan>
+<tspan x="113.8" y="333.20">                          -@=*%@-%%@       :.-+=+==+=--+=-+***%+--         @#%%%:@*==</tspan>
+<tspan x="113.8" y="340.00">                          .=+.:@=%@:#    :%+*+@****++==:--..---##-=---:   %-@#%%+@=</tspan>
+<tspan x="113.8" y="346.80">                            .@%*%#=-=%--+%+%#+-:-:::-+@##*=*#+=---=-=+#@=%==##%%%#+@-</tspan>
+<tspan x="113.8" y="353.60">                           =@=%%*%--=*==:=-**+=#+-=**++=-:--..:-:-+**+@%=*+==#%#+*###*+:.   .........</tspan>
+<tspan x="113.8" y="360.40">                    .-*#+**+*@@@@*.  ..:   ..::-+*-:     :-====--:..=+*%#=.    :+@@@@#--++++:.    ...</tspan>
+<tspan x="113.8" y="367.20">          ..:-=-==+++#*#***%=          ....   :-------=***+=-+=-::+*=+*+*+:.         :***#*+++*+++:.</tspan>
+<tspan x="113.8" y="374.00">    ...::---=+++####+:                  ..    .-=-----:.:--::       .:---:.                .+#@+++==---:...</tspan>
+<tspan x="113.8" y="380.80">    ..::---===+@=                               .:---====..--++=.                              @+===---::..</tspan>
+<tspan x="113.8" y="387.60">     ..:::--==#=                             -##+===-.:+*=-+:#*:#**+.                          :#=---:::..</tspan>
+<tspan x="113.8" y="394.40">      ...::-===                          :-+++:=..==:@#*+*=:++*@@:-%#-::                        *=--::...</tspan>
+<tspan x="113.8" y="401.20">        ..--..                       :==++=#@-=.:--:.::::...:-#@@@#= ::-%-=-.                    +:::..</tspan>
+<tspan x="113.8" y="408.00">         .: :          :=:.     .+=++=.@:  ==*-==+..........--.=*--    +-%=@##%#*.               :::..</tspan>
+<tspan x="113.8" y="414.80">           ..         .%=+#%%@%%*+-....*   :=#@@*-+.......:-:%%:     .+:.+.@*****#%%@%+=::--:   ....</tspan>
+<tspan x="113.8" y="421.60">             .         #:=**%%%#*#@:+..*    #+--+#::......:=*=**-    *:- +*@****#%%%%=%-:::    ...</tspan>
+<tspan x="113.8" y="428.40">              .       +.++=##%#**#@.@ .*   %:...==-:......=-%..:@   :#::=-@#***##%##+:*-    ....</tspan>
+<tspan x="113.8" y="435.20">                   ..:.. -==*##*##*-@=.=  @-:...=#..:::::.=:%..:@   -=. #*@***####*-+=:=...  .</tspan>
+<tspan x="113.8" y="442.00">                      .   =:=+*+***%*:.  %:.:=:-*@@+ ...-+@.@-.-@.  :+. *@#******+-=: :.. ..</tspan>
+<tspan x="113.8" y="448.80">                    ..  ...=-===+++++. .%.-=: *+@.:=-::-. %.@=:-#*  .#.=-%*++++++--:  ....</tspan>
+<tspan x="113.8" y="455.60">                          ::----===-=..#.:+  .#%%%=##.:=-=%:% %-.%   + =*++=====-::..:.</tspan>
+<tspan x="113.8" y="462.40">                           ..::::--=---=+.=. +-=-#+***+#=-+ #=-+=--  .  +=-----:::</tspan>
+<tspan x="113.8" y="469.20">                              ....:-:-: :: :-.= .-+=++-*  =:+-. .--:   --::::...</tspan></text>
+  <rect class="sweep" x="24" y="72" width="592" height="60" fill="url(#scan)"/>
+</g>
+<g class="line" style="animation-delay:0.15s"><text x="40" y="530.0"><tspan class="prompt">$ whoami</tspan></text></g>
+<g class="line" style="animation-delay:0.27s"><text x="40" y="571.6"><tspan class="head">Rohit Awasthi</tspan></text></g>
+<line x1="40" y1="583.6" x2="600" y2="583.6" stroke="#D0D7DE"/>
+<g class="line" style="animation-delay:0.39s"><text x="40" y="609.6"><tspan class="key">Role  </tspan><tspan class="val"> AI &amp; full-stack builder</tspan></text></g>
+<g class="line" style="animation-delay:0.51s"><text x="40" y="635.6"><tspan class="key">Base  </tspan><tspan class="val"> NIT Jalandhar</tspan></text></g>
+<g class="line" style="animation-delay:0.63s"><text x="40" y="661.6"><tspan class="key">Focus </tspan><tspan class="val"> LLM apps · RAG · long-context memory</tspan></text></g>
+<g class="line" style="animation-delay:0.75s"><text x="40" y="687.6"><tspan class="key">Also  </tspan><tspan class="val"> streaming platforms · applied ML</tspan></text></g>
+<g class="line" style="animation-delay:0.87s"><text x="40" y="713.6"><tspan class="key">Stack </tspan><tspan class="val"> Python · TypeScript · Node.js · SQLite</tspan></text></g>
+<g class="line" style="animation-delay:0.99s"><text x="40" y="760.0"><tspan class="sec">SELECTED WORK</tspan></text></g>
+<g class="line" style="animation-delay:1.11s"><text x="40" y="786.0"><tspan class="repo">▸ writingdao</tspan></text></g>
+<g class="line" style="animation-delay:1.23s"><text x="40" y="809.4"><tspan class="desc">  context compiler + memory OS for AI writing</tspan></text></g>
+<g class="line" style="animation-delay:1.35s"><text x="40" y="835.4"><tspan class="repo">▸ novel-rag</tspan></text></g>
+<g class="line" style="animation-delay:1.47s"><text x="40" y="858.8"><tspan class="desc">  hybrid BM25 + dense retrieval over fiction</tspan></text></g>
+<g class="line" style="animation-delay:1.59s"><text x="40" y="884.8"><tspan class="repo">▸ nompyr</tspan></text></g>
+<g class="line" style="animation-delay:1.71s"><text x="40" y="908.2"><tspan class="desc">  anime discovery &amp; streaming platform</tspan></text></g>
+<g class="line" style="animation-delay:1.83s"><text x="40" y="934.2"><tspan class="repo">▸ hydraulic_conductivity</tspan></text></g>
+<g class="line" style="animation-delay:1.95s"><text x="40" y="957.6"><tspan class="desc">  ANN / RF / SVM / fuzzy soil models</tspan></text></g>
+<g class="line" style="animation-delay:2.07s"><text x="40" y="996.6"><tspan class="prompt">$ </tspan><tspan class="cursor" fill="#0969DA">█</tspan></text></g>
+<rect x="40" y="1018.6" width="22" height="10" rx="2" fill="#FF7B72"/>
+<rect x="66" y="1018.6" width="22" height="10" rx="2" fill="#FFA657"/>
+<rect x="92" y="1018.6" width="22" height="10" rx="2" fill="#E3B341"/>
+<rect x="118" y="1018.6" width="22" height="10" rx="2" fill="#3FB950"/>
+<rect x="144" y="1018.6" width="22" height="10" rx="2" fill="#58A6FF"/>
+<rect x="170" y="1018.6" width="22" height="10" rx="2" fill="#D2A8FF"/>
+<rect x="196" y="1018.6" width="22" height="10" rx="2" fill="#59636E"/>
+</svg>
