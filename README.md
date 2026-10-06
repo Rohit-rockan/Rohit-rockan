@@ -10,7 +10,7 @@
 
 ## Hey, I'm Rohit
 
-I'm an **AI and full-stack builder** at **Dr B R Ambedkar National Institute of Technology, Jalandhar**. I build **LLM applications, retrieval systems, and streaming platforms**, usually starting from a problem I actually have and working it into a tool.
+I'm a student at **Dr B R Ambedkar National Institute of Technology, Jalandhar**, and an **AI and full-stack builder**. I build **LLM applications, retrieval systems, and streaming platforms**, usually starting from a problem I actually have and working it into a tool.
 
 ## What I Build
 

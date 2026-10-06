@@ -18,7 +18,7 @@ OUT = ROOT / "assets" / "hero"
 PROFILE = [
     ("Name", "Rohit Awasthi"),
     ("Role", "AI & full-stack builder"),
-    ("Base", "NIT Jalandhar"),
+    ("Edu", "student @ NIT Jalandhar"),
     ("Focus", "LLM apps · RAG · long-context memory"),
     ("Also", "streaming platforms · applied ML"),
     ("Stack", "Python · TypeScript · Node.js · SQLite"),
