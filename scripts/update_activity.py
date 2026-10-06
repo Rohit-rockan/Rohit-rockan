@@ -61,7 +61,7 @@ def main():
         if len(lines) == MAX_ITEMS:
             break
 
-    block = "\n".join(lines) or "- Nothing public yet this month."
+    block = "\n".join(lines) or "- Refreshes daily from public GitHub activity."
     text = README.read_text(encoding="utf-8")
     new = re.sub(
         r"(<!-- AUTO:ACTIVITY:START -->\n).*?(<!-- AUTO:ACTIVITY:END -->)",

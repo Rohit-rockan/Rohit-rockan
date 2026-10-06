@@ -47,7 +47,7 @@ I'm an **AI and full-stack builder** at **Dr B R Ambedkar National Institute of 
 <br>
 
 <!-- AUTO:ACTIVITY:START -->
-- Nothing public yet this month.
+- Refreshes daily from public GitHub activity.
 <!-- AUTO:ACTIVITY:END -->
 
 </details>
