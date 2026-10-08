@@ -47,6 +47,7 @@ I'm a student at **Dr B R Ambedkar National Institute of Technology, Jalandhar**
 <br>
 
 <!-- AUTO:ACTIVITY:START -->
+- Oct 6, 2026: created a branch in [Rohit-rockan/novel-rag](https://github.com/Rohit-rockan/novel-rag).
 - Oct 6, 2026: pushed 1 commit to [Rohit-rockan/novel-rag](https://github.com/Rohit-rockan/novel-rag).
 <!-- AUTO:ACTIVITY:END -->
 
