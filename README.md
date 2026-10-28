@@ -47,6 +47,8 @@ I'm a student at **Dr B R Ambedkar National Institute of Technology, Jalandhar**
 <br>
 
 <!-- AUTO:ACTIVITY:START -->
+- Oct 27, 2026: starred [Rohit-rockan/amazon-clone](https://github.com/Rohit-rockan/amazon-clone).
+- Oct 27, 2026: starred [morluto/rea](https://github.com/morluto/rea).
 - Oct 13, 2026: starred [Jatink25/Linklytics](https://github.com/Jatink25/Linklytics).
 - Oct 6, 2026: created a branch in [Rohit-rockan/novel-rag](https://github.com/Rohit-rockan/novel-rag).
 - Oct 6, 2026: pushed 1 commit to [Rohit-rockan/novel-rag](https://github.com/Rohit-rockan/novel-rag).
