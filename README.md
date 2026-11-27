@@ -52,7 +52,6 @@ I'm a student at **Dr B R Ambedkar National Institute of Technology, Jalandhar**
 - Oct 30, 2026: starred [Rohit-rockan/novel-rag](https://github.com/Rohit-rockan/novel-rag).
 - Oct 27, 2026: created a branch in [Rohit-rockan/amazon-clone](https://github.com/Rohit-rockan/amazon-clone).
 - Oct 27, 2026: pushed 1 commit to [Rohit-rockan/amazon-clone](https://github.com/Rohit-rockan/amazon-clone).
-- Oct 27, 2026: starred [Rohit-rockan/amazon-clone](https://github.com/Rohit-rockan/amazon-clone).
 <!-- AUTO:ACTIVITY:END -->
 
 </details>
